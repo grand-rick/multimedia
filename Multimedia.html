@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>MULTIMEDIA</title>
+    <style>
+        body{
+            margin:60px;
+            border:2px solid yellow;
+            padding:50px;
+            background-color:pink;
+        
+        }
+        h1{
+            text-align: center;
+        }
+        p1,p2,p3{
+             position: relative;
+            left:200px;
+          }
+        
+        table,th,td{
+            border:1px solid blue;
+            border-collapse: collapse;
+             
+
+        }
+       
+       img{
+        border-radius:100%;
+       }
+             
+    </style>
+
+</head>
+<body>
+    <h1>MULTIMEDIA ON WILDLIFE</h1>
+    <p1>This multimedia content explains.More about wildlife</p1><br>
+    <p2>The following images shows Trees and leopard that represent wildlife</p2><br>
+    <p3>The images shows samples of wildlife in generally</p3><br><br><br>
+    <table>
+        <tr>
+            <th>TREES</th>
+            <th>LEOPARD</th>
+        </tr>
+        <tr>
+     <td><img src="forest.jpg"><br><button onclick="tree()">MORE</button></td>
+     <td><img src="animal.jpg"><br><button onclick="animal()">MORE</button></td>
+        </tr>
+       <tr>
+        <td id="plant"></td>
+        <td id="leo"></td>
+       </tr>
+    </table>
+    <script>
+        function tree(){
+            document.getElementById("plant").innerHTML="Trees are terrestial plants.That grows together to form a forest,that is habitat for wild animals"; 
+        }
+        function animal(){
+            document.getElementById("leo").innerHTML="Leopard is an animal that belong to genius Panthera and species name leo."+
+            "Therefore its scientific name is Panthera leo.It is mostly found in sub-Saharan Africa, Western and central Asia";
+        }
+    </script>
+</body>
+</html>    
