@@ -76,9 +76,9 @@ main {
 } 
 
 .main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: .6rem;
 }
 
@@ -86,7 +86,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: .4rem;
-    margin-top: .8rem;
+    margin-top: .8rem auto;
 }
 
 .inner-main h3 {
@@ -100,7 +100,7 @@ main {
 }
 
 img {
-    width: 35rem;
+    width: 100%;
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;
@@ -115,4 +115,16 @@ img:hover {
 footer {
     margin-top: 3.5rem;
     font-size: 2rem;
+}
+
+@media (min-width: 678px) {
+    /* CSS rules go here */
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    img {
+        width: 30rem;
+    }
 }
