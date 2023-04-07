@@ -68,7 +68,7 @@ main {
 }
 
 .wildlife-desc {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
 }
 
 .wildlife-desc h1 {
@@ -132,5 +132,9 @@ footer {
 
     img {
         width: 90%;
+    }
+
+    .wildlife-desc {
+        font-size: 2.5rem;
     }
 }
