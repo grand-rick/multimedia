@@ -50,7 +50,6 @@ main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         align-items: flex-start;
-        /* grid-gap: 2rem; */
     }
 
     .tsavo-content .body img {
