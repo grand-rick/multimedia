@@ -42,6 +42,10 @@ main {
 }
 
 @media (min-width: 678px) {
+    .tsavo-content .intro img {
+        width: 60%;
+        height: auto;
+    }
     .tsavo-content .body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
