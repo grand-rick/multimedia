@@ -34,6 +34,11 @@ main {
     .team-members {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+
+    .member {
+        width: 80%;
     }
 
     .member img {

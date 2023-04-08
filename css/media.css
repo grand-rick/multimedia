@@ -1,0 +1,85 @@
+main {
+    width: 95%;
+}
+
+.tsavo-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.tsavo-content div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.tsavo-content h3 {
+    font-size: 3.5rem;
+}
+
+.tsavo-content h4 {
+    font-size: 2.5rem;
+}
+
+.tsavo-content img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.tsavo-content p {
+    font-size: 1.5rem;
+}
+
+.tsavo-content figure {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 678px) {
+    .tsavo-content .body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: flex-start;
+        /* grid-gap: 2rem; */
+    }
+
+    .tsavo-content .body img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tsavo-content .body .grid-item-1 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .tsavo-content .body .grid-item-2 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .tsavo-content .body .grid-item-3 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .tsavo-content .body .grid-item-4 {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    .tsavo-content .body .grid-item-5 {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .tsavo-content .body .grid-item-6 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    
+}
