@@ -2,6 +2,38 @@ main {
     width: 95%;
 }
 
+main section {
+    margin-bottom: 2rem;
+}
+
+.acacia-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.acacia-content .body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.acacia-content .body p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.acacia-content .body h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
 .tsavo-content {
     width: 100%;
     display: flex;
