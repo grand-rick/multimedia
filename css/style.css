@@ -105,7 +105,7 @@ main {
     margin-top: 1rem;
 }
 
-img {
+.inner-main img {
     width: 100%;
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
@@ -114,7 +114,7 @@ img {
     -o-border-radius: 2rem;
 }
 
-img:hover {
+.inner-main img:hover {
     cursor: pointer;
 }
 
@@ -130,7 +130,7 @@ footer {
         flex-direction: row;
     }
 
-    img {
+    .inner-main img {
         width: 90%;
     }
 

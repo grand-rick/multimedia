@@ -18,6 +18,10 @@
     margin-bottom: 7rem;
 }
 
+.member:hover {
+    cursor: pointer;
+}
+
 .member img {
     width: 90%;
 }
